@@ -1,0 +1,58 @@
+html, body {
+  background-color: #d0eadf;
+}
+
+body {
+  -webkit-app-region: drag;
+}
+
+.query {
+  font-family: "RobotoLight";
+  font-size: 35px;
+  color: #595959;
+  height: 50px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #8fd0b4;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.query:focus {
+  outline: none;
+}
+
+.logo {
+  height: 70px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: RobotoLight;
+  src: local("Roboto Light"),
+       url(../fonts/Roboto-Light.ttf);
+  font-weight: bold;
+}
+
+.results table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.results tr.selected {
+  background-color: lightgrey;
+}
+
+.results td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 400px;
+  max-width: 400px;
+}
+
+.results td.index {
+  width: 40px;
+  text-align: right;
+}

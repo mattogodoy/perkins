@@ -1,0 +1,19 @@
+{
+  "name": "perkins",
+  "version": "0.1.0",
+  "description": "Your personal clipboard butler",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "npm rebuild --runtime=electron --target=1.6.8 --disturl=https://atom.io/download/atom-shell --abi=48"
+  },
+  "author": "Matias Godoy",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.6.8",
+    "electron-clipboard-extended": "^1.1.0",
+    "electron-json-storage": "^3.0.5",
+    "jquery": "^3.2.1",
+    "robotjs": "^0.4.7"
+  }
+}
